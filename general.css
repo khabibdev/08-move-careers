@@ -19,7 +19,10 @@ body {
     color: #8a94a6;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> offer
 
 .container {
     /* 1140px */
@@ -38,4 +41,7 @@ body {
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
 }
+<<<<<<< HEAD
+>>>>>>> offer
+=======
 >>>>>>> offer
