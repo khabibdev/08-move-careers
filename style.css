@@ -7,6 +7,10 @@
     background-color: #ffffff;
     height: 9.6em;
     padding: 3.9rem 10rem 4rem 10rem;
+<<<<<<< HEAD
+=======
+    margin-bottom: 15rem;
+>>>>>>> offer
 }
 .logo {
     height: 5.4rem;
@@ -60,6 +64,10 @@
 .section-hero {
     background-color: #ffffff;
     padding: 5.3rem 10rem 9.6rem 10rem;
+<<<<<<< HEAD
+=======
+    margin-bottom: 8rem;
+>>>>>>> offer
 }
 
 .hero {
@@ -75,7 +83,8 @@
     width: 100%;
 }
 
-.heading-primary {
+.heading-primary,
+.offer-primary {
     font-family: "Inter";
     font-size: 6rem;
     font-weight: 700;
@@ -83,7 +92,12 @@
     margin-bottom: 3.3rem;
 }
 
+<<<<<<< HEAD
 .hero-describtion {
+=======
+.hero-describtion,
+.offer-describtion {
+>>>>>>> offer
     font-size: 2rem;
     line-height: 1.6;
     color: #8a94a6;
@@ -98,6 +112,53 @@
 .link:visited {
     color: #377dff;
     text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+
+/* Section Offer */
+.offer {
+    padding: 10rem 10rem 10rem 10rem;
+    background-color: #fafbfc;
+}
+
+.offer-primary,
+.offer-describtion {
+    text-align: center;
+}
+
+.offer-describtion {
+    margin-bottom: 8.1rem;
+}
+.offer-main-text {
+    margin-bottom: 8.1rem;
+}
+
+.offer-package {
+    background-color: #ffffff;
+    padding: 3.2rem 3.6rem 2.1rem 3.1rem;
+    border-radius: 11px;
+}
+
+.offer-title {
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+    color: #323b4b;
+    margin-bottom: 2.1rem;
+}
+
+.offer-text {
+    font-size: 1.8rem;
+    line-height: 3rem;
+    color: #8a94a6;
+}
+
+.icon {
+    width: 8rem;
+    height: 8rem;
+    margin-bottom: 2.9rem;
+>>>>>>> offer
 }
 
 /* Section Offer */

@@ -18,3 +18,24 @@ body {
     font-weight: 500;
     color: #8a94a6;
 }
+<<<<<<< HEAD
+=======
+
+.container {
+    /* 1140px */
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    column-gap: 3.2rem;
+    row-gap: 3.7rem;
+    /* margin-bottom: 9.6rem; */
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+>>>>>>> offer
