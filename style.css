@@ -242,3 +242,80 @@
     background-color: #e5f1ff;
     padding: 2rem 11rem 2rem 11rem;
 }
+
+/* *************************
+**********FOOTER***********
+************************* */
+
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+}
+
+.grid--footer {
+    grid-template-columns: 6fr 2fr 2fr 2fr 2fr;
+}
+.logo-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: 14rem;
+}
+
+.move-text {
+    font-size: 2rem;
+    line-height: 3.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 3.2rem;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 3.5rem;
+    margin-bottom: 11.5rem;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+}
+
+.copyright {
+    font-size: 1.8rem;
+    color: #8a94a6;
+    line-height: 2.2rem;
+    margin-top: auto;
+}
+
+.footer-heading {
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-weight: 600;
+    margin-bottom: 2.7rem;
+    color: #323b48;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #8a94a6;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #555;
+}
