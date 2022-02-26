@@ -8,24 +8,30 @@
     height: 9.6em;
     padding: 3.9rem 10rem 4rem 10rem;
     margin-bottom: 15rem;
+    background-color: yellow;
 }
 .logo {
     height: 5.4rem;
 }
 
 /* Navigation */
-.main-nav-list,
-.chevron-down {
+.main-nav-list {
     list-style: none;
     display: flex;
     gap: 3.2rem;
     align-items: center;
 }
 
+.main-nav-list li {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited,
 .chevron-down {
-    display: inline-block;
+    /* display: inline-block; */
     text-decoration: none;
     color: #8a94a6;
     font-weight: 600;
@@ -52,10 +58,6 @@
     color: #fff;
 }
 
-.chevron-down {
-    padding-left: 1.5rem;
-}
-
 /* Hero Section */
 
 .section-hero {
@@ -77,6 +79,9 @@
 .job-img {
     width: 100%;
 }
+
+/* .section-heading */
+/* section-sub-heading */
 
 .heading-primary,
 .offer-primary,
@@ -169,70 +174,65 @@
     background-color: #fafbfc;
     padding: 10rem 10rem 10rem 10rem;
 }
-
-.vacancy-title,
-.vacancy-department,
-.vacancy-department-2,
-.vacancy-department-3,
-.vacancy-department-4 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
 .vacancy-text-box {
     margin-bottom: 7.7rem;
 }
 
-.vacancy-title-text {
+.vacancy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    align-items: center;
+    padding: 0 3.2rem;
+}
+
+.vacancy-item {
+    height: 15.5rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.vacancy-item:last-of-type {
+    margin-bottom: 9.2rem !important;
+}
+
+.vacancy-header {
+    height: 3rem;
+    margin-bottom: 2rem;
+}
+.vacancy-header li {
     font-weight: 600;
     font-size: 2.4rem;
     line-height: 2.9rem;
     color: #323b48;
-    padding: 4.4rem 0 4.4rem 3.2rem;
 }
 
-.vacancy-position-name {
-    font-weight: 600;
+.vacancy-title,
+.vacancy-department,
+.vacancy-location {
     font-size: 2rem;
     line-height: 2.4rem;
+}
+
+.vacancy-title {
     color: #323b48;
-    margin-bottom: 2.5rem;
-}
-
-.vacancy-position-branch,
-.vacancy-position-location {
-    font-size: 2rem;
-    line-height: 2.4rem;
-    color: #8a94a6;
-    margin-bottom: 2.5rem;
-}
-
-.vacancy-title-text,
-.vacancy-position-name,
-.vacancy-position-branch,
-.vacancy-position-location {
-    list-style-type: none;
-    margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 .vacancy-department,
-.vacancy-department-2,
-.vacancy-department-3,
-.vacancy-department-4 {
-    background-color: #ffffff;
-    border-radius: 1.5rem;
-    padding: 4.4rem 0 4.4rem 3.2rem;
-    margin-bottom: 2rem;
-}
-.vacancy-department-4 {
-    margin-bottom: 9.2rem;
+.vacancy-location {
+    color: #8a94a6;
 }
 
 .resume-link {
     text-align: center;
+    width: max-content;
+    margin: 0 auto;
 }
 
 .resume-link-btn {
+    display: block;
     font-weight: 600;
     font-size: 2rem;
     line-height: 2.4rem;
