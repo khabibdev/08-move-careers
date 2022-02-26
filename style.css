@@ -80,7 +80,8 @@
 
 .heading-primary,
 .offer-primary,
-.job-primary {
+.job-primary,
+.vacancy-primary {
     font-family: "Inter";
     font-size: 6rem;
     font-weight: 700;
@@ -91,7 +92,8 @@
 
 .hero-describtion,
 .offer-describtion,
-.job-describtion {
+.job-describtion,
+.vacancy-describtion {
     font-size: 2rem;
     line-height: 1.6;
     color: #8a94a6;
@@ -116,13 +118,13 @@
 }
 
 .offer-primary,
-.offer-describtion {
+.offer-describtion,
+.vacancy-describtion,
+.vacancy-primary {
     text-align: center;
 }
 
-.offer-describtion {
-    margin-bottom: 8.1rem;
-}
+.offer-describtion,
 .offer-main-text {
     margin-bottom: 8.1rem;
 }
@@ -160,4 +162,83 @@
     align-items: center;
     gap: 9rem;
     padding: 10rem 10rem 10rem 10rem;
+}
+
+/* Section Vacancy */
+.vacancy-section {
+    background-color: #fafbfc;
+    padding: 10rem 10rem 10rem 10rem;
+}
+
+.vacancy-title,
+.vacancy-department,
+.vacancy-department-2,
+.vacancy-department-3,
+.vacancy-department-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.vacancy-text-box {
+    margin-bottom: 7.7rem;
+}
+
+.vacancy-title-text {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    color: #323b48;
+    padding: 4.4rem 0 4.4rem 3.2rem;
+}
+
+.vacancy-position-name {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #323b48;
+    margin-bottom: 2.5rem;
+}
+
+.vacancy-position-branch,
+.vacancy-position-location {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: #8a94a6;
+    margin-bottom: 2.5rem;
+}
+
+.vacancy-title-text,
+.vacancy-position-name,
+.vacancy-position-branch,
+.vacancy-position-location {
+    list-style-type: none;
+    margin-bottom: 2rem;
+}
+
+.vacancy-department,
+.vacancy-department-2,
+.vacancy-department-3,
+.vacancy-department-4 {
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    padding: 4.4rem 0 4.4rem 3.2rem;
+    margin-bottom: 2rem;
+}
+.vacancy-department-4 {
+    margin-bottom: 9.2rem;
+}
+
+.resume-link {
+    text-align: center;
+}
+
+.resume-link-btn {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    color: #377dff;
+    background-color: #e5f1ff;
+    padding: 2rem 11rem 2rem 11rem;
 }
