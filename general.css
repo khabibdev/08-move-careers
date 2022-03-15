@@ -22,7 +22,18 @@ body {
     font-weight: 500;
     color: #8a94a6;
 }
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
 
+h6 {
+    font-size: 2.8rem;
+    line-height: 4rem;
+    color: #323b4b;
+}
 .container {
     /* 1140px */
     max-width: 120rem;
@@ -39,4 +50,20 @@ body {
 
 .grid--2-cols {
     grid-template-columns: repeat(2, 1fr);
+}
+.nav__link {
+    font-size: 1.8rem;
+    font-weight: 500px;
+    line-height: 1/2rem;
+    color: #8a94a6;
+}
+
+.row {
+    max-width: 144rem;
+    /* margin: 0 auto; */
+    padding: 0 9.6rem;
+}
+section,
+footer {
+    padding: 12.8rem 0;
 }

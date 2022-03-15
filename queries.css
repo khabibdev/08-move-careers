@@ -1,0 +1,164 @@
+/* Below 1440px (Smaller Desktops */
+@media only screen and (max-width: 90em) {
+}
+
+/* Below 1200px (Landscape Tablets) */
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 56.25%; /* 9px */
+    }
+
+    .row {
+        padding: 0 8rem;
+    }
+
+    /* ---------- TrustedBy Section ---------- */
+
+    .trustedby-section__logos {
+        justify-content: center;
+        gap: 6.4rem;
+    }
+}
+
+/* Below 900px (Tablets) */
+
+@media only screen and (max-width: 56.25em) {
+    html {
+        font-size: 50%; /* 8px */
+    }
+
+    /* ---------- Nav---------- */
+    .nav__links {
+        display: none;
+    }
+
+    .nav__cta-btn {
+        display: none;
+    }
+
+    /* ---------- Mobile-Nav---------- */
+
+    #menu-icon {
+        display: block;
+        cursor: pointer;
+        height: 4.1rem;
+        width: auto;
+    }
+
+    #close-icon {
+        height: 2.5rem;
+    }
+
+    .mobile-nav--show {
+        width: 100%;
+    }
+
+    .mobile-nav__header {
+        height: 9.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .mobile-nav__links {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        gap: 3.2rem;
+        align-items: center;
+    }
+
+    .mobile-nav__link {
+        font-size: 1.4rem;
+        font-weight: 400px;
+        line-height: 3.2rem;
+        color: #4e5d78;
+    }
+
+    .mobile-nav__cta {
+        text-align: center;
+    }
+
+    /* ---------- Advantages Section ---------- */
+
+    .row.advantages-section__content {
+        padding-right: 8rem;
+        flex-direction: column;
+    }
+
+    /* ---------- Package Section ---------- */
+
+    .row.package-section__content {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+
+    .package-section__info {
+        margin-bottom: 9.6rem;
+    }
+
+    /* ---------- Footer---------- */
+
+    .footer__content {
+        gap: 3.2rem;
+    }
+
+    .company__brand {
+        flex: 100%;
+    }
+}
+
+/* Below 768px (Smaller Tablets) */
+
+@media only screen and (max-width: 48em) {
+    html {
+        font-size: 43.75%; /* 7px */
+    }
+    .row {
+        padding: 0 6.4rem;
+    }
+}
+
+@media only screen and (max-width: 30em) {
+    .row {
+        padding: 0 4.8rem;
+    }
+
+    section,
+    footer {
+        padding: 9.6rem 0;
+    }
+    /* ---------- Typography ---------- */
+
+    .heading-1 {
+        font-size: 6rem;
+        line-height: 7.6rem;
+    }
+
+    h2 {
+        font-size: 4.8rem;
+        line-height: 6.4rem;
+    }
+
+    /* ---------- Header ---------- */
+
+    .header__buttons {
+        flex-direction: column;
+        gap: 3.2rem;
+        margin-bottom: 3.2rem;
+    }
+
+    /* ---------- Advantages ---------- */
+
+    .advantages-section__list li {
+        flex: 100%;
+    }
+}

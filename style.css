@@ -246,76 +246,50 @@
 **********FOOTER***********
 ************************* */
 
-.footer {
-    padding: 12.8rem 10rem;
-    border-top: 1px solid #eee;
+/* ---------- Footer ---------- */
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 9.6rem;
 }
 
-.grid--footer {
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-}
-.logo-col {
+.company__brand {
+    flex: 0 0 30rem;
     display: flex;
     flex-direction: column;
-    margin-right: 14rem;
+    align-items: flex-start;
+    gap: 3.2rem;
 }
 
-.move-text {
+.company__logo {
+    height: 4rem;
+    width: auto;
+}
+
+.company__brand > p,
+.company__legal > p {
     font-size: 2rem;
-    line-height: 3.5rem;
-    margin-bottom: 4.5rem;
-}
-
-.footer-logo {
-    display: block;
-    margin-bottom: 3.2rem;
-}
-
-.social-links {
-    list-style: none;
-    display: flex;
-    gap: 3.5rem;
-    margin-bottom: 11.5rem;
-}
-
-.social-icon {
-    height: 5rem;
-    width: 5rem;
-    margin-right: 4.8rem;
-}
-
-.copyright {
-    font-size: 1.8rem;
+    font-weight: 1.8rem;
+    line-height: 3.2rem;
     color: #8a94a6;
-    line-height: 2.2rem;
-    margin-top: auto;
 }
 
-.footer-heading {
-    font-size: 2.4rem;
-    line-height: 2.9rem;
-    font-weight: 600;
-    margin-bottom: 2.7rem;
-    color: #323b48;
-}
-
-.footer-nav {
-    list-style: none;
+.company__socials {
+    align-self: stretch;
     display: flex;
-    flex-direction: column;
     gap: 2.4rem;
 }
 
-.footer-link:link,
-.footer-link:visited {
-    text-decoration: none;
-    font-size: 2rem;
-    line-height: 2.4rem;
-    color: #8a94a6;
-    transition: all 0.3s;
+.company__links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
 }
 
-.footer-link:hover,
-.footer-link:active {
-    color: #555;
+.company__links {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
 }
